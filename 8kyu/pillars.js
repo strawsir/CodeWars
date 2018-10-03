@@ -19,3 +19,14 @@ function pillars(num_pill, dist, width) {
   pillars(7, 100, 8);
   pillars(45, 1, 28);
   pillars(1, 2, 3);
+
+  function pillars2(num_pill, dist, width) {
+    var total = num_pill>1?(num_pill-1)*dist*100+(num_pill-2)*width:0;
+    console.log(total + ' cm') 
+  }
+
+  pillars2(2, 20, 25);
+  pillars2(5, 10, 4);
+  pillars2(7, 100, 8);
+  pillars2(45, 1, 28);
+  pillars2(1, 2, 3);
